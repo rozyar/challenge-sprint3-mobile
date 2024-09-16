@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "389002089477",
+    "firebase_url": "https://kotlinfirebase-d8753-default-rtdb.firebaseio.com",
+    "project_id": "kotlinfirebase-d8753",
+    "storage_bucket": "kotlinfirebase-d8753.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389002089477:android:c58f68f87d39864eb0f86c",
+        "android_client_info": {
+          "package_name": "com.example.aicreditanalyzer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxNE0MEjoi6OruLqG2Jd05w70S7v2YFqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

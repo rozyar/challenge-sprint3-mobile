@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0E0E0E"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+        <TextView
+            android:id="@+id/analysisTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="Análise de Crédito"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3" />
+
+
+        <EditText
+            android:id="@+id/scoreEditText"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="Informe seu Score Serasa"
+            android:inputType="number"
+            android:paddingLeft="16dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#A1A1A1"
+            android:background="@drawable/custom_input_style"
+            android:backgroundTint="#1A1A1A" />
+
+
+        <Button
+            android:id="@+id/analyzeButton"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:text="Analisar Crédito"
+            android:textColor="#000000"
+            android:backgroundTint="#DDB529"
+            android:layout_marginTop="20dp" />
+
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>

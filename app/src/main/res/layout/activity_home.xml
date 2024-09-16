@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0E0E0E"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="App de Análise Crédito com IA"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/creditAnalysisButton"
+        android:layout_width="280dp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#DDB529"
+        android:drawableLeft="@drawable/ic_analysis"
+        android:drawablePadding="10dp"
+        android:text=" Análise de Crédito com IA"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/creditPredictionButton"
+        android:layout_width="280dp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#DDB529"
+        android:drawableLeft="@drawable/ic_prediction"
+        android:drawablePadding="10dp"
+        android:text=" Previsão Simples de Crédito"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

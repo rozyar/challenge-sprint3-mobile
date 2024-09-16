@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0E0E0E"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+        <TextView
+            android:id="@+id/predictionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="Previsão de Crédito"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3" />
+
+
+        <EditText
+            android:id="@+id/amountEditText"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="Valor de Crédito Desejado"
+            android:inputType="numberDecimal"
+            android:paddingLeft="16dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#A1A1A1"
+            android:background="@drawable/custom_input_style"
+            android:backgroundTint="#1A1A1A" />
+
+
+        <EditText
+            android:id="@+id/incomeEditText"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:hint="Sua Renda Mensal"
+            android:inputType="numberDecimal"
+            android:paddingLeft="16dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#A1A1A1"
+            android:background="@drawable/custom_input_style"
+            android:backgroundTint="#1A1A1A" />
+
+
+        <Button
+            android:id="@+id/predictButton"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Prever Aprovação"
+            android:textColor="#000000"
+            android:backgroundTint="#DDB529" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp" />
+</LinearLayout>
