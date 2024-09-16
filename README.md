@@ -62,4 +62,4 @@ res/
 ### Requisitos:
 - Android Studio
 - Firebase configurado no projeto
-- Chave de API da OpenAI
+- Chave de API da OpenAI(chave se encontra no txt)
