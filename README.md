@@ -1,6 +1,14 @@
 
 # AI Credit Analyzer App
 
+
+## Membros da Equipe
+
+- **Razyel Ferrari** - RM551875 - [irazyel](https://github.com/irazyel)
+- **Rayzor Anael** - RM551832 - [rozyar](https://github.com/rozyar)
+- **Derick Araújo** - RM551007 - [dericki](https://github.com/dericki)
+- **Kalel Schlichting** - RM550620 - [K413l](https://github.com/K413l)
+
 ## Descrição do Projeto
 O **AI Credit Analyzer** é um aplicativo que fornece análises preditivas de crédito utilizando a API GPT-3.5 da OpenAI. O app auxilia os usuários a prever a probabilidade de inadimplência e a aprovação de crédito com base em suas informações financeiras.
 
