@@ -21,7 +21,7 @@
         android:layout_height="35dp"
         android:background="@drawable/custom_input_style"
         android:backgroundTint="#1A1A1A"
-        android:hint="Digite seu usuário"
+        android:hint="Digite seu Email"
         android:inputType="textEmailAddress"
         android:paddingLeft="20dp"
         android:textColor="#FFFFFF"
