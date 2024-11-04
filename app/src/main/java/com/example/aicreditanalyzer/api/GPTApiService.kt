@@ -14,7 +14,7 @@ import java.io.IOException
 class GPTApiService(private val context: Context) {
     private val client = OkHttpClient()
 
-    private val apiKey = "API_KEY"
+    private val apiKey = ""
 
     fun analyzeCredit(score: String, callback: (String) -> Unit) {
         val url = "https://api.openai.com/v1/chat/completions"

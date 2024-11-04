@@ -24,7 +24,10 @@
         <activity android:name=".activity.HomeActivity" android:exported="true"/>
         <activity android:name=".activity.CreditAnalysisActivity" android:exported="true"/>
         <activity android:name=".activity.CreditPredictionActivity" android:exported="true"/>
-
+        <activity android:name=".activity.CreditAnalysisListActivity" />
+        <activity android:name=".activity.CreditAnalysisDetailActivity" />
+        <activity android:name=".activity.CreditPredictionListActivity" />
+        <activity android:name=".activity.CreditPredictionDetailActivity" />
     </application>
 
 </manifest>

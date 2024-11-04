@@ -48,4 +48,30 @@
         android:textSize="12sp"
         android:textStyle="bold" />
 
+    <Button
+        android:id="@+id/creditAnalysisListButton"
+        android:layout_width="280dp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#DDB529"
+        android:drawableLeft="@drawable/ic_analysis"
+        android:drawablePadding="10dp"
+        android:text=" Ver Análises de Crédito"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/creditPredictionListButton"
+        android:layout_width="280dp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#DDB529"
+        android:drawableLeft="@drawable/ic_prediction"
+        android:drawablePadding="10dp"
+        android:text=" Ver Previsões de Crédito"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
 </LinearLayout>

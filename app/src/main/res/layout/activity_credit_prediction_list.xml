@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layoutCreditPredictionList"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#0E0E0E"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/emptyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nenhuma previsão encontrada. Por favor, faça uma previsão na página inicial."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:padding="16dp" />
+
+    <ListView
+        android:id="@+id/listViewPredictions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#A1A1A1"
+        android:dividerHeight="1dp"
+        android:padding="16dp"/>
+</LinearLayout>

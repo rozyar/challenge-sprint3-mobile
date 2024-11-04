@@ -4,7 +4,6 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import androidx.appcompat.app.AppCompatActivity
 import com.example.aicreditanalyzer.R
 
 class HomeActivity : Activity() {
@@ -19,6 +18,16 @@ class HomeActivity : Activity() {
 
         findViewById<Button>(R.id.creditPredictionButton).setOnClickListener {
             val intent = Intent(this, CreditPredictionActivity::class.java)
+            startActivity(intent)
+        }
+
+        findViewById<Button>(R.id.creditAnalysisListButton).setOnClickListener {
+            val intent = Intent(this, CreditAnalysisListActivity::class.java)
+            startActivity(intent)
+        }
+
+        findViewById<Button>(R.id.creditPredictionListButton).setOnClickListener {
+            val intent = Intent(this, CreditPredictionListActivity::class.java)
             startActivity(intent)
         }
     }
